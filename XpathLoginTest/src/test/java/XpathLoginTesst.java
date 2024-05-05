@@ -11,7 +11,7 @@ import java.time.Duration;
 public class XpathLoginTesst {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\tamta\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\tamta\\Downloads\\chromedriver-win32 (1)\\chromedriver-win32\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
 
