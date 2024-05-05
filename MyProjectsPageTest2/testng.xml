@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyProjectsWithPom" parallel="classes" thread-count="2">
+    <test name="routeTest" >
+        <classes>
+            <class name="HeaderSectionTest" />
+            <class name="HomePageTest" />
+            <class name="AboutPageTest" />
+            <class name="ContactPageTest" />
+        </classes>
+    </test>
+</suite>
